@@ -1,25 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-     <title>Our first webpage</title>
-     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  </head>
+<html lang="en">
+<head>
+  <title>Shto Kontrate te re</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-  <body>
+<div class="container">
+  <h2>Shto kontraten e re</h2>
+  <h3>Prokurimi:</h3>
+  <form>
+    <div class="form-group row">
+      <div class="col-xs-3">
+        <label for="ex1">Nr.rendor i prokurimit</label>
+        <input class="form-control" id="ex1" type="text" placeholder="Nr.rendor i prokurimit">
+      </div>
+      <div class="col-xs-3">
+        <label for="ex2">Lloji i prokurimit</label>
+        <input class="form-control" id="ex2" type="text" placeholder="Lloji i prokurimit">
+      </div>      
+    </div>
+	<div class="form-group row">
+	<div class="col-xs-6">
+        <label for="ex3">Aktiviteti i prokurimit</label>
+        <input class="form-control" id="ex3" type="text" placeholder="Aktiviteti i prokurimit">
+    </div>
+	</div></br>	
+	<h3>Datat:</h3>	
+	 <div class="form-group row">	 
+      <div class="col-xs-3">     
+		<label for="ex7">Data e inicimit te aktivitetit te prokurimit</label>	  
+        <input class="form-control" id="ex7" type="text" placeholder="03.03.2018">
+      </div>	   
+      <div class="col-xs-3"> </br>
+		<label for="ex4">Data e publikimit te shpalljes </label>      
+        <input class="form-control" id="ex4" type="text" placeholder="03.03.2018">
+      </div>      
+    </div>
+	<div class="form-group row">
+	<div class="col-xs-6">
+        <label for="ex5">Data e nenshkrimit te kontrates</label>
+        <input class="form-control" id="ex5" type="text" placeholder="03.03.2018">
+    </div>
+	</div>
+	<label for="ex6">Afatet per implementimin e kontrates:</label>
+	<div class="form-group row">        
+		<div class="col-xs-3">		
+        <input class="form-control" id="ex6" type="text" placeholder="03.03.2018">
+    </div>
+	<div class="col-xs-3">
+        <input class="form-control" type="text" placeholder="03.03.2018">
+      </div>
+	</div>
+	<div class="form-group row">
+	<div class="col-xs-6">
+        <label for="ex8">Data e permbylljes se kontrates(data e pranimit te perkohshem/preliminar)</label>
+        <input class="form-control" id="ex8" type="text" placeholder="03.03.2018">
+    </div>
+	</div></br>
+	<h3>Çmimi dhe te dhenat e tjera:</h3>
+	 <div class="form-group row">	 
+      <div class="col-xs-3">     
+		<label for="ex9">Çmimi i kontrates(duke perfshire te gjitha taksat)</label>	  
+        <input class="form-control" id="ex9" type="text" placeholder="Çmimi i kontratës">
+      </div>
+	   <div class="form-group row">
+      <div class="col-xs-3"></br>
+		<label for="ex10">Çmimi total i paguar per kontraten</label>      
+        <input class="form-control" id="ex10" type="text" placeholder="Çmimi total">
+      </div>      
+    </div>
+	<div class="col-xs-6">
+        <label for="ex11">Emri i te cilit i eshte dhene kontrata</label>
+        <input class="form-control" id="ex11" type="text" placeholder="Emri dhe Mbiemri">
+    </div>
+	</div>
+	 <div class="form-group row">
+		<div class="col-xs-3"> 
+			<button type="button" class="btn btn-primary btn-lg btn-block">DERGO</button>			
+			</div>
+			<div class="col-xs-3"> 
+			<button type="button" class="btn btn-secondary btn-lg btn-block">FSHIJ</button>
+			</div>
+		</div>
+	</form>
+</div>
 
-     <div class="container">
-        <div class="row">
-		    <div class="col-md-2 offset-md-2 column">
-              <p>First Column Content</p>
-           </div>
-           <div class="col-md-2 offset-md-2 column">
-              <p>Second Column Content</p>
-           </div>
-           <div class="col-md-4 column">
-              <p>Third Column Content</p>
-           </div>
-        </div>
-     </div>
 
-  </body>
+</body>
 </html>
